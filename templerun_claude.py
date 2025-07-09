@@ -688,7 +688,7 @@ class Game:
         # Draw UI
         self.ui.draw_game_ui(self.screen, self.score, self.coins, self.lives, self.game_speed, self.powerups)
         
-        # Draw combo
+        
         if self.combo > 1:
             combo_text = self.ui.font.render(f"COMBO x{self.combo}", True, YELLOW)
             self.screen.blit(combo_text, (SCREEN_WIDTH - 200, 10))
