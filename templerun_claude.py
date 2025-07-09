@@ -693,7 +693,7 @@ class Game:
             combo_text = self.ui.font.render(f"COMBO x{self.combo}", True, YELLOW)
             self.screen.blit(combo_text, (SCREEN_WIDTH - 200, 10))
         
-        # Apply shake offset
+        
         if shake_x != 0 or shake_y != 0:
             
             pass
