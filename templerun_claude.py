@@ -750,7 +750,7 @@ class Game:
                 self.ui.draw_menu(self.screen)
             elif self.state == PAUSED:
                 self.draw_game()
-                # Draw pause overlay
+                
                 overlay = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
                 overlay.set_alpha(128)
                 overlay.fill(BLACK)
