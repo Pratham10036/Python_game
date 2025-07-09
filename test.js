@@ -19,3 +19,6 @@ console.log("Random fruit:", fruits[getRandomInt(0, fruits.length - 1)]);
 for (let i = 0; i < 3; i++) {
   console.log(`Random int ${i + 1}:`, getRandomInt(1, 50));
 }
+
+
+
