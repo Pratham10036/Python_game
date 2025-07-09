@@ -695,7 +695,7 @@ class Game:
         
         # Apply shake offset
         if shake_x != 0 or shake_y != 0:
-            # This is a simplified shake effect
+            
             pass
     
     def handle_events(self):
